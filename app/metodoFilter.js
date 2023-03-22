@@ -4,6 +4,7 @@ botoes = document.querySelectorAll('.btn')
 botoes.forEach((botao)=> botao.addEventListener('click', filtraLista))
 // ai tu cria a função
 function filtraLista () {
+
     // propriedade que captura qual botão está sendo clicado
     const elementoBtn = document.getElementById(this.id)
     // onde tu separa somente o valor do botao que está sendo clicado

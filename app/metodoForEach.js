@@ -1,8 +1,13 @@
 const elementoParaInserirLivros = document.getElementById('livros')
+
+// onde eu pego a parte que fala o valor total de livros e sumo com ela
 const elementoComValorTotalDeLivrosDisponiveis = document.getElementById('valor_total_livros_disponiveis')
+elementoComValorTotalDeLivrosDisponiveis.innerHTML = ''
+
 // função que exibe os livros na tela
+
 function exibirOsLivrosNaTela(listaDeLivros) {
-    elementoComValorTotalDeLivrosDisponiveis.innerHTML = ''
+    
     // zera a lista antes de completar ela
     elementoParaInserirLivros.innerHTML = ''
 
